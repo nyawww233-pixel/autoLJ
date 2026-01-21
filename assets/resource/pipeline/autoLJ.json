@@ -1,0 +1,154 @@
+{
+  "$__mpe_config_autoLJ": {
+    "$__mpe_code": {
+      "prefix": "",
+      "savedViewport": {
+        "x": -1046,
+        "y": 32,
+        "zoom": 1
+      },
+      "filename": "autoLJ",
+      "version": "v0.16.1"
+    }
+  },
+  "点击“开始挑战”": {
+    "recognition": {
+      "type": "OCR",
+      "param": {
+        "expected": [
+          "开始挑战"
+        ]
+      }
+    },
+    "action": {
+      "type": "Click",
+      "param": {}
+    },
+    "$__mpe_code": {
+      "position": {
+        "x": 1134,
+        "y": 88
+      }
+    },
+    "next": [
+      "选择助战"
+    ]
+  },
+  "选择助战": {
+    "recognition": {
+      "type": "OCR",
+      "param": {
+        "expected": [
+          "苏尔特尔",
+          "迪亚波罗",
+          "梵尽花"
+        ]
+      }
+    },
+    "action": {
+      "type": "Click",
+      "param": {}
+    },
+    "$__mpe_code": {
+      "position": {
+        "x": 1424,
+        "y": 85
+      }
+    },
+    "next": [
+      "点击战斗"
+    ]
+  },
+  "点击战斗": {
+    "recognition": {
+      "type": "OCR",
+      "param": {
+        "expected": [
+          "开始战斗"
+        ]
+      }
+    },
+    "action": {
+      "type": "Click",
+      "param": {}
+    },
+    "$__mpe_code": {
+      "position": {
+        "x": 1713,
+        "y": 85
+      }
+    },
+    "next": [
+      "跳过回合"
+    ]
+  },
+  "跳过回合": {
+    "recognition": {
+      "type": "OCR",
+      "param": {
+        "expected": [
+          "跳过回合"
+        ]
+      }
+    },
+    "action": {
+      "type": "Click",
+      "param": {}
+    },
+    "$__mpe_code": {
+      "position": {
+        "x": 1996,
+        "y": 85
+      }
+    },
+    "next": [
+      "继续"
+    ]
+  },
+  "继续": {
+    "recognition": {
+      "type": "OCR",
+      "param": {
+        "expected": [
+          "点击空白处继续"
+        ]
+      }
+    },
+    "action": {
+      "type": "Click",
+      "param": {}
+    },
+    "$__mpe_code": {
+      "position": {
+        "x": 1999,
+        "y": 288
+      }
+    },
+    "next": [
+      "再次挑战"
+    ]
+  },
+  "再次挑战": {
+    "recognition": {
+      "type": "OCR",
+      "param": {
+        "expected": [
+          "再次挑战"
+        ]
+      }
+    },
+    "action": {
+      "type": "Click",
+      "param": {}
+    },
+    "$__mpe_code": {
+      "position": {
+        "x": 1718,
+        "y": 287
+      }
+    },
+    "next": [
+      "选择助战"
+    ]
+  }
+}
