@@ -1,0 +1,156 @@
+{
+  "$__mpe_config_autoLJ": {
+    "$__mpe_code": {
+      "filePath": "C:\\Users\\Administrator\\autoLJ\\assets/autoLJv0.01.json",
+      "filename": "autoLJ",
+      "lastSyncTime": 1768985722303,
+      "prefix": "",
+      "savedViewport": {
+        "x": -788,
+        "y": 165,
+        "zoom": 0.87
+      },
+      "version": "v0.16.1"
+    }
+  },
+  "再次挑战": {
+    "$__mpe_code": {
+      "position": {
+        "x": 1718,
+        "y": 287
+      }
+    },
+    "action": {
+      "param": {},
+      "type": "Click"
+    },
+    "next": [
+      "选择助战"
+    ],
+    "recognition": {
+      "param": {
+        "template": [
+          "6.png"
+        ]
+      },
+      "type": "TemplateMatch"
+    }
+  },
+  "点击“开始挑战”": {
+    "$__mpe_code": {
+      "position": {
+        "x": 1134,
+        "y": 88
+      }
+    },
+    "action": {
+      "param": {},
+      "type": "Click"
+    },
+    "next": [
+      "选择助战"
+    ],
+    "recognition": {
+      "param": {
+        "template": [
+          "1.png"
+        ]
+      },
+      "type": "TemplateMatch"
+    }
+  },
+  "点击战斗": {
+    "$__mpe_code": {
+      "position": {
+        "x": 1713,
+        "y": 85
+      }
+    },
+    "action": {
+      "param": {},
+      "type": "Click"
+    },
+    "next": [
+      "跳过回合"
+    ],
+    "recognition": {
+      "param": {
+        "template": [
+          "3.png"
+        ]
+      },
+      "type": "TemplateMatch"
+    }
+  },
+  "继续": {
+    "$__mpe_code": {
+      "position": {
+        "x": 1999,
+        "y": 288
+      }
+    },
+    "action": {
+      "param": {},
+      "type": "Click"
+    },
+    "next": [
+      "再次挑战"
+    ],
+    "recognition": {
+      "param": {
+        "template": [
+          "5.png"
+        ]
+      },
+      "type": "TemplateMatch"
+    }
+  },
+  "跳过回合": {
+    "$__mpe_code": {
+      "position": {
+        "x": 1996,
+        "y": 85
+      }
+    },
+    "action": {
+      "param": {},
+      "type": "Click"
+    },
+    "next": [
+      "继续"
+    ],
+    "recognition": {
+      "param": {
+        "template": [
+          "4.png"
+        ]
+      },
+      "type": "TemplateMatch"
+    }
+  },
+  "选择助战": {
+    "$__mpe_code": {
+      "position": {
+        "x": 1424,
+        "y": 85
+      }
+    },
+    "action": {
+      "param": {},
+      "type": "Click"
+    },
+    "next": [
+      "点击战斗"
+    ],
+    "recognition": {
+      "param": {
+        "template": [
+          "2.1.png",
+          "2.2.png",
+          "2.3.png"
+        ]
+      },
+      "type": "TemplateMatch"
+    }
+  }
+}
