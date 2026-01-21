@@ -49,7 +49,7 @@
     "task": [
         {
             "name": "普通任务",
-            "entry": "autoLJ"
+            "entry": "autoLJv0.01"
         },
     ],
 }
